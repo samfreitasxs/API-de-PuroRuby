@@ -1,15 +1,48 @@
+# HTTParty + Rspec + Rake
 
-# VS Code Readme Editor 📝  
-Import your existing Readme using the import button on the top right corner of the navbar, 
-or create a new Readme from scratch by typing in the editor.  
+Projeto de exemplo para implementação de testes para API's Rest utilizando o HTTParty + Rspec + Rake
 
-## Get Started 🚀  
-To get started, hit the 'clear' button at the top of the editor!  
+## Ferramentas utilizadas:
+- [VSCode](https://code.visualstudio.com/ "VSCode")
+- [HTTParty](https://github.com/jnunemaker/httparty "HTTParty")
+- [Rspec](https://github.com/rspec/rspec "Rspec")
+- [Rake](https://github.com/ruby/rake "Rake")
 
-## Prebuilt Components/Templates 🔥  
-You can checkout prebuilt components and templates by clicking on the menu icon
-on the top left corner of the navbar.
-    
-## Save Readme ✨  
-Once you're done, click on the save button to directly save your Readme to your
-project's root directory!
+## Recursos utilizados no projeto
+- **Rspec**
+	- describe
+	- it
+	- expect
+- **Httparty**
+	- get
+	- post
+- **Rake**
+    - Task
+
+## Estrutura de pastas
+
+```
+📦httparty_rspec
+ ┣ 📂reports
+ ┃ ┗ 📜rspec_results.html
+ ┣ 📂spec
+ ┃ ┣ 📜books_test.rb
+ ┃ ┗ 📜spec_helper.rb
+ ┣ 📜.rspec
+ ┣ 📜Gemfile
+ ┣ 📜Gemfile.lock
+ ┣ 📜README.md
+ ┗ 📜Rakefile
+```
+## Tutorial, Instalação e execução
+
+#### **Ter previamente o ruby instalado em sua máquina**
+**Windows:** [Ruby Installer](https://rubyinstaller.org/  "Ruby Installer")
+**Unix Based:** ["Ruby for Unix Based"](https://www.ruby-lang.org/pt/documentation/installation/ "Ruby for Unix Based")
+
+#### Instalar o bundler
+`gem install bundler`
+
+####  E seguir o tutorial no post abaixo: 
+
+[Iniciando os testes de serviços com HTTParty e Rspec](https://medium.com/cwi-software/https-medium-com-maximilianoalves-iniciando-testes-de-servicos-com-httparty-e-rspec-366fe93525ab "Iniciando os testes de serviços com HTTParty e Rspec")
