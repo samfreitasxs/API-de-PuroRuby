@@ -22,11 +22,9 @@ Projeto de exemplo para implementação de testes para API's Rest utilizando o H
 ## Estrutura de pastas
 
 ```
-📦httparty_rspec
- ┣ 📂reports
- ┃ ┗ 📜rspec_results.html
+📦API_RUBY
  ┣ 📂spec
- ┃ ┣ 📜books_test.rb
+ ┃ ┣ 📜contractS.rb
  ┃ ┗ 📜spec_helper.rb
  ┣ 📜.rspec
  ┣ 📜Gemfile
