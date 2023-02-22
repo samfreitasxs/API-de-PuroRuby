@@ -24,7 +24,7 @@ Projeto de exemplo para implementação de testes para API's Rest utilizando o H
 ```
 📦API_RUBY
  ┣ 📂spec
- ┃ ┣ 📜contractS.rb
+ ┃ ┣ 📜contract.rb
  ┃ ┗ 📜spec_helper.rb
  ┣ 📜.rspec
  ┣ 📜Gemfile
